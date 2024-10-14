@@ -3,6 +3,7 @@ mod controlflow;
 mod loops;
 mod practicingdatatypes;
 mod collections;
+mod dictionaries;
 
 fn main() {
     // commnet the one you dont need to run.
@@ -10,7 +11,8 @@ fn main() {
 
     // practicingdatatypes::main();
     // loops::basic();
-    collections::main();
+    // collections::main();
+    dictionaries::main();
     // let mut grades: Felt252Dict<u64> = Default::default();
 
     // grades.insert('maria', 65);
